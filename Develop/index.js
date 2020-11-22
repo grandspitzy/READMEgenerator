@@ -43,6 +43,11 @@ const promptUser = () => {
         },
         {
             type:"input",
+            message:"What command for should be run to test?",
+            name:"commandT"
+        },
+        {
+            type:"input",
             message:"What info does user need to know for repo usage?",
             name:"repoUsage"
         },
@@ -60,6 +65,48 @@ const promptUser = () => {
 }// end inquirer
 promptUser();
 
-generateRead(response) {
+function generateRead(response) {
+    let stringRead =`
+
+        # ${response.projectName}
+
+        ## Description
+
+        ${response.projectInfo}
+
+        ## Table of Contents
+
+         [Installation](#installation)
+         [Usage](#usage)
+         [License](#license)
+         [Contributing](#contributing)
+         [Tests](#tests)
+         [Questions](#questions)
+
+        ## Installation
+
+        ${response.installD}
     
+        ## Usage
+
+        ${response.repoUsage}
+
+        ## License
+
+        ${response.license}
+
+        ## Contributing
+
+        ${response.contribUser}
+
+        ## Tests
+
+        ${response.commandT}
+
+        ## Questions
+
+        If you have any questions or issues please contact me at <${response.email}>!
+
+`
+    return(stringRead)
 }
