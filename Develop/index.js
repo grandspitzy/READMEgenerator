@@ -71,44 +71,44 @@ const promptUser = () => {
 function generateRead(response) {
     let stringRead =`
 
-        # ${response.projectName}
+# ${response.projectName}
 
-        ## Description
+## Description
 
-        ${response.projectInfo}
+ ${response.projectInfo}
 
-        ## Table of Contents
+## Table of Contents
 
-         [Installation](#installation)
-         [Usage](#usage)
-         [License](#license)
-         [Contributing](#contributing)
-         [Tests](#tests)
-         [Questions](#questions)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
 
-        ## Installation
+## Installation
 
-        ${response.installD}
+${response.installD}
     
-        ## Usage
+## Usage
 
-        ${response.repoUsage}
+${response.repoUsage}
 
-        ## License
+## License
 
-        ${response.license}
+${response.license}
 
-        ## Contributing
+## Contributing
 
-        ${response.contribUser}
+${response.contribUser}
 
-        ## Tests
+## Tests
 
-        ${response.commandT}
+${response.commandT}
 
-        ## Questions
+## Questions
 
-        If you have any questions or issues please contact me at <${response.email}>!
+If you have any questions or issues please contact me at <${response.email}>!
 
 `
     return(stringRead) //returns the markup above
