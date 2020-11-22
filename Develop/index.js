@@ -61,15 +61,12 @@ const promptUser = () => {
         //create the info for README
         let readFile = generateRead(response);
         // creates the file and gets info from function I made
-        writeFileAsync("READ.md", README).then( 
+        writeFileAsync("READ.md", readFile).then( 
             err => console.log("Success")
         );
     })
 
 }// end inquirer
-
-
-promptUser();
 
 function generateRead(response) {
     let stringRead =`
