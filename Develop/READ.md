@@ -1,10 +1,10 @@
 
 
-# asdf
+# README Generator
 
 ## Description
 
- asdf
+ Create a Read me generator
 
  ## Table of Contents
  * [Installation](#installation)
@@ -16,25 +16,25 @@
  
 ## Installation
 
-asdf
+npm inquirer
     
 ## Usage
 
-asdf
+github 
 
 ## License
 
-MIT
+APACHE 2.0
 
 ## Contributing
 
-asdf
+none
 
 ## Tests
 
-asdf
+npm install
 
 ## Questions
 
-If you have any questions or issues please contact me at <asdf>!
+If you have any questions or issues please contact me at <mspitzer@outlook.com>!
 
