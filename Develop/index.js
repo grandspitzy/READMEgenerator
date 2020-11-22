@@ -77,15 +77,14 @@ function generateRead(response) {
 
  ${response.projectInfo}
 
-## Table of Contents
-
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-
+ ## Table of Contents
+ * [Installation](#installation)
+ * [Usage](#usage)
+ * [License](#license)
+ * [Contributing](#contributing)
+ * [Tests](#tests)
+ * [Questions](#questions)
+ 
 ## Installation
 
 ${response.installD}
